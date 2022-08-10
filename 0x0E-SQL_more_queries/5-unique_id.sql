@@ -1,4 +1,7 @@
-CREATE TABLE IF NOT EXISTS `unique_id` (
-    `id`   INT          DEFAULT 1 UNIQUE,
-    `name` VARCHAR(256)
-);
+-- creates a table
+-- db passed in as arg, table: unique_id
+CREATE TABLE IF NOT EXISTS unique_id
+(
+    id INT DEFAULT 1 UNIQUE,
+    name VARCHAR(256)
+)
